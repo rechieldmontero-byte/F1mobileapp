@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "AGRIHUB",
+    "slug": "AGRIHUB",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/agrihub-icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rechiel.agrihub",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/agrihub-icon.png"
+      },
+      "package": "com.rechiel.agrihub"
+    },
+    "web": {
+      "favicon": "./assets/agrihub-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b854f679-f1e3-4ded-b7f2-72d448fd04ce"
+      }
+    }
+  }
+}
